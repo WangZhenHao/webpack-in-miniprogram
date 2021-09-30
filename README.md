@@ -1,4 +1,4 @@
-# webpack工程化小程序 demo
+# webpack工程化小程序
 
 ## 特点：
 
@@ -11,7 +11,9 @@
 
 4: axios请求
 
-5： minxins 混入 （未完成）
+5: 区分打包  dist/dev   dist/prod  dist/test
+
+6： minxins 混入 （未完成）
 ```
 
 ## 目录说明
@@ -58,12 +60,17 @@
 
 ```
 
-[参考axios的写法，用法而封装的微信小程序requset请求](https://github.com/WangZhenHao/wx-axios)
-
 ## 使用yarn安装（npm安装可能会报错）
 ```
 yarn install 
 
 ```
+
+### 特别说明
+1： [参考axios的写法，用法而封装的微信小程序requset请求](https://github.com/WangZhenHao/wx-axios)
+
+2： [mini-program-webpack-loader](https://github.com/realywithoutname/mini-program-webpack-loader)
+
+3: [小程序插件打包 demo](https://github.com/realywithoutname/mini-loader-plugin-demo)
 
 ### qq讨论群: 475870039
