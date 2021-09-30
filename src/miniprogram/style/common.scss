@@ -1,0 +1,123 @@
+view, scroll-view, swiper, swiper-item, movable-area, movable-view, cover-view, cover-image, icon, text, rich-text, progress, button, checkbox-group, checkbox, form, input,label, picker, picker-view, radio-group, radio, slider, switch, textarea, navigator, functional-page-navigator, image, video, camera, live-player, live-pusher, map, canvas, open-data, web-view, ad {
+    box-sizing: border-box;
+}
+
+view, text {
+    //color: #424242;
+    word-break: break-all;
+}
+image[mode='widthFix']{
+    height: auto;
+}
+.font-bold {
+	font-weight: bold;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-middle {
+    display: flex;
+    align-items: center;
+}
+
+.flex-end {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+.flex-row-reverse {
+	display: flex;
+    flex-direction: row-reverse;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-1 {
+    flex: 1;
+}
+// 公用样式
+
+.bg-f {
+    background: #fff;
+}
+.width-100 {
+    width: 100%
+}
+.height-100 {
+    height: 100%;
+}
+
+.font-24 {
+    font-size: 24rpx;
+}
+.font-28 {
+    font-size: 28rpx;
+}
+.font-32 {
+    font-size: 32rpx;
+}
+
+.color-f {
+    color: #fff;
+}
+.color-3 {
+    color: #333;
+}
+.color-9 {
+    color: #999;
+}
+.color-6 {
+    color: #666;
+}
+
+.rel {
+    position: relative;
+}
+.abs {
+    position: absolute;
+}
+.fix {
+    position: fixed;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.m-r-10 {
+    margin-right: 10rpx;
+}
+.font-blod {
+    font-weight: bold;
+}
+.text-th {
+    text-decoration: line-through;
+}
