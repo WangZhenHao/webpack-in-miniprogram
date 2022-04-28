@@ -5,6 +5,6 @@ module.exports = {
   alias: {
     '@lib': resolve('./src/lib'),
     '@components': resolve('./src/components'),
-    '@utils': resolve('./src/miniprogram/utils')
+    '@utils': resolve('./src/utils')
   }
 };
