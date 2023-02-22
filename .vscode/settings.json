@@ -1,0 +1,16 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["project.config.json"],
+      "url": "https://newfuture.github.io/miniprogram-json-schema/project.config.json"
+    },
+    {
+        "fileMatch": ["index.json"],
+        "url": "https://newfuture.github.io/miniprogram-json-schema/page.json"
+    },
+    {
+        "fileMatch": ["sitemap.json"],
+        "url": "https://newfuture.github.io/miniprogram-json-schema/sitemap.json"
+    }
+  ]
+}
