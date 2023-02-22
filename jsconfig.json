@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "checkJs": true,
+        "baseUrl": "./",
+        "paths": {
+          "@components/*": ["./src/components/*"],
+          "@lib/*": ["./src/lib/*"],
+          "@utils/*": ["./src/utils/*"]
+        }
+    },
+    
+    // 位于此目录下的文件不进行静态检查和智能提示
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}

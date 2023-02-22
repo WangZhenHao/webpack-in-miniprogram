@@ -50,7 +50,7 @@
 │
 │
 │
-│─ images  外链图片，可以和cdn路径同步
+│─ static  外链图片，可以和cdn路径同步
 │
 │
 │  .babelrc                           // babel的配置文件
