@@ -2,3 +2,5 @@
 <veiw>@IMGPATH</veiw>
 <view class="wrap"></view>
 <image src="/images/1.jpg"></image>
+<view class="icon icon-test"></view>
+<view class="icon icon-bingtutubiao"></view>

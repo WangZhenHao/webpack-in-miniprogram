@@ -4,6 +4,7 @@ const config = require(`./environments/environments.${process.env.BUILD_ENV}.js`
 // const axois = require('@utils/axois');
 import axois from '@utils/axios'
 
+
 App({
   global: {
     config: config

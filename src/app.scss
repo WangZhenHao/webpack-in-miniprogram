@@ -1,11 +1,39 @@
-@import './style/common.scss';
 
-page {
-    background: pink;
+/* CDN 服务仅供平台体验和调试使用，平台不承诺服务的稳定性，企业客户需下载字体包自行发布使用并做好备份。 */
+@font-face {
+    font-family: 'iconfont';  /* Project id 2614926 */
+    src: url('//at.alicdn.com/t/c/font_2614926_erhe4xlmnfp.woff2?t=1677145483019') format('woff2'),
+         url('//at.alicdn.com/t/c/font_2614926_erhe4xlmnfp.woff?t=1677145483019') format('woff'),
+         url('//at.alicdn.com/t/c/font_2614926_erhe4xlmnfp.ttf?t=1677145483019') format('truetype');
+  }
+
+.icon {
+    font-family: "iconfont" !important;
+    font-size: 24rpx;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-// .wrap {
-//     width: 100px;
-//     height: 100px;
-//     background-image: url("./images/index/1.jpg");
-// }
+.icon.icon-test:before {
+    content: "\e600";
+}
+
+.icon.icon-bingtutubiao:before {
+    content: "\e98c";
+}
+
+.icon.icon-chufang:before {
+    content: "\e98d";
+}
+
+.icon.icon-chayan:before {
+    content: "\e98e";
+}
+
+
+
+@import './style/common.scss';

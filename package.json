@@ -12,6 +12,7 @@
     "@babel/core": "^7.5.0",
     "@babel/preset-env": "^7.5.0",
     "@babel/runtime": "^7.5.1",
+    "@types/wechat-miniprogram": "^3.4.1",
     "autoprefixer": "^8.5.0",
     "babel-eslint": "^8.2.3",
     "babel-loader": "^8.0.6",
@@ -24,8 +25,8 @@
     "fs-extra": "^4.0.2",
     "mini-program-webpack-loader": "^1.6.0",
     "rimraf": "^2.6.2",
-    "sass": "^1.26.8",
-    "sass-loader": "^7.0.3",
+    "sass": "1.22.0",
+    "sass-loader": "7.2.0",
     "string-replace-loader": "2.3.0",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.0.8",
@@ -36,5 +37,6 @@
     "url": ""
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
