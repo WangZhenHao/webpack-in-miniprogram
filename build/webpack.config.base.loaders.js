@@ -24,7 +24,9 @@ module.exports = [
     test: /.wxml/,
     use: [
       fileLoader('[path][name].[ext]'),
-      'mini-program-webpack-loader',
+      {
+        loader: path.resolve(__dirname, './mini-program-webpack-loader/src/index.js'),
+      },
       {
         loader: 'string-replace-loader',
         options: {
@@ -40,7 +42,9 @@ module.exports = [
   },
   {
     test: /\.wxss$/,
-    use: [fileLoader('[path][name].[ext]'), 'mini-program-webpack-loader'],
+    use: [fileLoader('[path][name].[ext]'), {
+      loader: path.resolve(__dirname, './mini-program-webpack-loader/src/index.js'),
+    }],
   },
   {
     test: /\.scss$/,
@@ -75,7 +79,9 @@ module.exports = [
     use: [
       fileLoader('[path][name].[ext]'),
       'babel-loader',
-      'mini-program-webpack-loader',
+      {
+        loader: path.resolve(__dirname, './mini-program-webpack-loader/src/index.js'),
+      },
     ],
   },
   {

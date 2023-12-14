@@ -1,7 +1,8 @@
 const webpack = require("webpack");
 const path = require('path');
 const merge = require('webpack-merge');
-const MiniProgramPlugin = require('mini-program-webpack-loader').plugin;
+// const MiniProgramPlugin = require('mini-program-webpack-loader').plugin;
+const MiniProgramPlugin = require('./mini-program-webpack-loader/src/index.js').plugin;
 const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const resolve = (file) => path.resolve(__dirname, '../', file);
