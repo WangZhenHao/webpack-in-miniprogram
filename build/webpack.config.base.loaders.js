@@ -45,6 +45,14 @@ module.exports = [
   {
     test: /\.scss$/,
     use: [
+      fileLoader('[path][name].wxss'),
+      {
+        loader: 'sass-loader',
+        options: {
+          implementation: require('sass'),
+          outputStyle: 'expanded'
+        },
+      },
       {
         loader: 'string-replace-loader',
         options: {
@@ -54,14 +62,6 @@ module.exports = [
               replace: 'http://www.baidu.com/images',
             },
           ],
-        },
-      },
-      fileLoader('[path][name].wxss'),
-      {
-        loader: 'sass-loader',
-        options: {
-          implementation: require('sass'),
-          outputStyle: 'expanded'
         },
       },
     ],
