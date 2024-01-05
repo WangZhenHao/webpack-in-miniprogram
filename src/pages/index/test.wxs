@@ -1,0 +1,8 @@
+var foo = "'hello 12232233233";
+var bar = function(d) {
+  return d;
+}
+module.exports = {
+  foo: foo,
+  bar: bar
+};

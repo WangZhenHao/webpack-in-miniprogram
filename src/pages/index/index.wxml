@@ -1,6 +1,8 @@
+<wxs src="./test.wxs" module="tools" />
 <view>1</view>
 <veiw>@IMGPATH</veiw>
-<view class="wrap"></view>
+<view class="wrap">{{ tools.foo }}</view>
 <image src="/images/1.jpg"></image>
 <view class="icon icon-test"></view>
 <view class="icon icon-bingtutubiao"></view>
+

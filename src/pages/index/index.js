@@ -1,7 +1,7 @@
 Page({
   onLoad() {
     
-    console.log(1)
+    console.log('1')
   },
   onReachBottom() {
     
